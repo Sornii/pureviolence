@@ -1,6 +1,11 @@
 function onLogin(cid)
 	local player = Player(cid)
 
+	if player:getLevel() < 8 then
+		local diff = 4200 - player:getExperience()
+		player:addExperience(diff)
+	end
+
 	local loginStr = "Welcome to " .. configManager.getString(configKeys.SERVER_NAME) .. "!"
 	if player:getLastLoginSaved() <= 0 then
 		loginStr = loginStr .. " Please choose your outfit."
