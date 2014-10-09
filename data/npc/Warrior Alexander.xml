@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Warrior Alexander" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="131" head="114" body="95" legs="0" feet="115" addons="1"/>
+	<parameters>
+		<parameter key="message_greet" value="Sorry |PLAYERNAME|, can't talk right now."/>
+	</parameters>
+</npc>

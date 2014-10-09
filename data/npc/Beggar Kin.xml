@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Beggar Kin" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="157" head="0" body="115" legs="127" feet="114" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Can you spare me some money?"/>
+	</parameters>
+</npc>

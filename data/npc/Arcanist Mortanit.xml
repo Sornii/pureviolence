@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Arcanist Mortanit" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="129" head="94" body="82" legs="132" feet="114" addons="0"/>
+	<parameters>
+		<parameter key="message_greet" value="Hi?"/>
+	</parameters>
+</npc>

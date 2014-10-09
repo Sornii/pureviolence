@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Questmaster Iirin" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="139" head="77" body="95" legs="78" feet="114" addons="1"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|, may i help you?"/>
+	</parameters>
+</npc>

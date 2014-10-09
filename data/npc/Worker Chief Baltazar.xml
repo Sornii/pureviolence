@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Worker Chief Baltazar" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="128" head="115" body="78" legs="125" feet="114" addons="1"/>
+	<parameters>
+		<parameter key="message_greet" value="Move along, i'm working."/>
+	</parameters>
+</npc>

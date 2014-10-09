@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bartender Tars" script="food.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="136" head="79" body="0" legs="79" feet="132" addons="2"/>
+	<parameters>
+		<parameter key="message_greet" value="Looking for something to eat?"/>
+	</parameters>
+</npc>

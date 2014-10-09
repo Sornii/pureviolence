@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Banker Isa" script="bank.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="129" head="115" body="114" legs="114" feet="132" addons="1"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|! Here, you can manage your money from your bank account."/>
+		<parameter key="message_alreadyfocused" value="You are deaf? I'm talk with you."/>
+		<parameter key="message_farewell" value="Goodbye."/>
+	</parameters>
+</npc>

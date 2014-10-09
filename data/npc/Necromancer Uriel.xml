@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Necromancer Uriel" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100"/>
+	<look type="133" head="0" body="114" legs="132" feet="114" addons="2"/>
+	<parameters>
+		<parameter key="message_greet" value="I'm not in the mood for talking right now."/>
+	</parameters>
+</npc>
