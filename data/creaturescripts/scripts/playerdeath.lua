@@ -82,4 +82,6 @@ function onDeath(cid, corpse, killer, mostDamage, unjustified, mostDamage_unjust
 			end
 		end
 	end
+
+	player:setStorageValue(3470, -1)
 end
