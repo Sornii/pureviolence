@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <npc name="The Guardian" script="default.lua" walkinterval="2000" floorchange="0">
 	<health now="100" max="100"/>
-	<look type="129" head="115" body="114" legs="114" feet="132" addons="1"/>
+	<look type="129" head="115" body="114" legs="132" feet="132" addons="1"/>
 	<parameters>
 		<parameter key="message_greet" value="..."/>
 	</parameters>
