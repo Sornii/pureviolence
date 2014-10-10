@@ -169,3 +169,16 @@ pip-log.txt
 .*.swp
 .*.swo
 
+########
+## Idea
+########
+
+# General files
+.idea/
+
+########
+## OT Server files
+########
+
+# Compacte-o
+*.otbm
