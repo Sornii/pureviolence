@@ -472,6 +472,10 @@
 	<spawn centerx="1314" centery="1037" centerz="5" radius="1">
 		<monster name="Crab" x="-1" y="1" z="5" spawntime="60" />
 	</spawn>
+	<spawn centerx="1086" centery="1039" centerz="5" radius="1">
+		<monster name="Pigeon" x="0" y="-1" z="5" spawntime="200" />
+		<monster name="Pigeon" x="0" y="1" z="5" spawntime="200" />
+	</spawn>
 	<spawn centerx="1319" centery="1041" centerz="5" radius="1">
 		<monster name="Island troll" x="-1" y="-1" z="5" spawntime="60" />
 	</spawn>
@@ -513,6 +517,9 @@
 	</spawn>
 	<spawn centerx="1205" centery="1080" centerz="5" radius="1">
 		<monster name="Stone Golem" x="1" y="0" z="5" spawntime="60" />
+	</spawn>
+	<spawn centerx="980" centery="1082" centerz="5" radius="1">
+		<npc name="Librarian Hina" x="0" y="-1" z="5" spawntime="200" />
 	</spawn>
 	<spawn centerx="1195" centery="1084" centerz="5" radius="1">
 		<monster name="Stone Golem" x="0" y="-1" z="5" spawntime="60" />
@@ -945,6 +952,9 @@
 	<spawn centerx="922" centery="1060" centerz="6" radius="1">
 		<npc name="Necromancer Uriel" x="1" y="0" z="6" spawntime="200" />
 	</spawn>
+	<spawn centerx="971" centery="1071" centerz="6" radius="1">
+		<npc name="Scholar Raphael" x="-1" y="0" z="6" spawntime="200" />
+	</spawn>
 	<spawn centerx="1194" centery="1072" centerz="6" radius="1">
 		<monster name="Stone Golem" x="1" y="-1" z="6" spawntime="60" />
 	</spawn>
@@ -994,6 +1004,9 @@
 	</spawn>
 	<spawn centerx="1188" centery="1111" centerz="6" radius="1">
 		<monster name="Stone Golem" x="0" y="1" z="6" spawntime="60" />
+	</spawn>
+	<spawn centerx="1129" centery="1112" centerz="6" radius="1">
+		<npc name="Warrior Alexander" x="1" y="0" z="6" spawntime="200" />
 	</spawn>
 	<spawn centerx="1217" centery="1114" centerz="6" radius="1">
 		<monster name="Stone Golem" x="1" y="0" z="6" spawntime="60" />
@@ -2227,6 +2240,9 @@
 	<spawn centerx="1089" centery="1015" centerz="7" radius="1">
 		<monster name="Squirrel" x="-1" y="0" z="7" spawntime="3600" />
 	</spawn>
+	<spawn centerx="962" centery="1017" centerz="7" radius="1">
+		<npc name="Priest Tenzin" x="1" y="0" z="7" spawntime="200" />
+	</spawn>
 	<spawn centerx="1325" centery="1017" centerz="7" radius="1">
 		<monster name="Bear" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
@@ -2241,9 +2257,6 @@
 	</spawn>
 	<spawn centerx="1369" centery="1019" centerz="7" radius="1">
 		<monster name="Rabbit" x="1" y="1" z="7" spawntime="60" />
-	</spawn>
-	<spawn centerx="963" centery="1021" centerz="7" radius="1">
-		<npc name="Priest Tenzin" x="0" y="-1" z="7" spawntime="200" />
 	</spawn>
 	<spawn centerx="1346" centery="1022" centerz="7" radius="1">
 		<monster name="Wolf" x="1" y="0" z="7" spawntime="60" />
@@ -2307,9 +2320,6 @@
 	</spawn>
 	<spawn centerx="997" centery="1035" centerz="7" radius="1">
 		<npc name="Guard Homer" x="-1" y="0" z="7" spawntime="200" />
-	</spawn>
-	<spawn centerx="963" centery="1037" centerz="7" radius="1">
-		<npc name="Guard Arwin" x="1" y="-1" z="7" spawntime="1" />
 	</spawn>
 	<spawn centerx="1027" centery="1037" centerz="7" radius="1">
 		<npc name="Guard Ymir" x="0" y="-1" z="7" spawntime="200" />
@@ -2458,14 +2468,14 @@
 	<spawn centerx="1230" centery="1077" centerz="7" radius="1">
 		<monster name="Ghoul" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="980" centery="1079" centerz="7" radius="1">
-		<npc name="Arcanist Mortanit" x="0" y="1" z="7" spawntime="200" />
-	</spawn>
 	<spawn centerx="1008" centery="1079" centerz="7" radius="1">
 		<npc name="Bartender Ugo" x="0" y="0" z="7" spawntime="200" />
 	</spawn>
-	<spawn centerx="1016" centery="1080" centerz="7" radius="1">
-		<npc name="Bard Blank" x="0" y="0" z="7" spawntime="200" />
+	<spawn centerx="980" centery="1081" centerz="7" radius="1">
+		<npc name="Arcanist Mortanit" x="0" y="1" z="7" spawntime="200" />
+	</spawn>
+	<spawn centerx="1016" centery="1081" centerz="7" radius="1">
+		<npc name="Bard Blank" x="0" y="-1" z="7" spawntime="200" />
 	</spawn>
 	<spawn centerx="1202" centery="1082" centerz="7" radius="1">
 		<monster name="Stone Golem" x="1" y="-1" z="7" spawntime="60" />
@@ -2527,11 +2537,11 @@
 	<spawn centerx="1187" centery="1105" centerz="7" radius="1">
 		<monster name="Stone Golem" x="-1" y="0" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="1023" centery="1109" centerz="7" radius="1">
-		<npc name="Guard Diego" x="0" y="0" z="7" spawntime="1" />
+	<spawn centerx="1024" centery="1110" centerz="7" radius="1">
+		<npc name="Guard Diego" x="1" y="1" z="7" spawntime="1" />
 	</spawn>
-	<spawn centerx="1032" centery="1109" centerz="7" radius="1">
-		<npc name="Guard Tom" x="0" y="0" z="7" spawntime="1" />
+	<spawn centerx="1031" centery="1110" centerz="7" radius="1">
+		<npc name="Guard Tom" x="-1" y="1" z="7" spawntime="1" />
 	</spawn>
 	<spawn centerx="937" centery="1112" centerz="7" radius="5">
 		<monster name="Troll" x="1" y="-3" z="7" spawntime="60" />
@@ -2556,8 +2566,8 @@
 	<spawn centerx="920" centery="1118" centerz="7" radius="1">
 		<monster name="Ghoul" x="1" y="-1" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="1137" centery="1119" centerz="7" radius="1">
-		<npc name="Warrior Alexander" x="0" y="-1" z="7" spawntime="200" />
+	<spawn centerx="1137" centery="1119" centerz="7" radius="4">
+		<npc name="Masahiro" x="-1" y="1" z="7" spawntime="200" />
 	</spawn>
 	<spawn centerx="1202" centery="1122" centerz="7" radius="1">
 		<monster name="Stone Golem" x="-1" y="-1" z="7" spawntime="60" />
@@ -4186,9 +4196,6 @@
 	</spawn>
 	<spawn centerx="1363" centery="1053" centerz="8" radius="1">
 		<monster name="Wolf" x="1" y="1" z="8" spawntime="60" />
-	</spawn>
-	<spawn centerx="971" centery="1054" centerz="8" radius="1">
-		<npc name="Scholar Raphael" x="0" y="1" z="8" spawntime="200" />
 	</spawn>
 	<spawn centerx="1029" centery="1054" centerz="8" radius="3">
 		<monster name="Rotworm" x="1" y="-2" z="8" spawntime="60" />
@@ -6040,8 +6047,8 @@
 		<monster name="Troll" x="1" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1375" centery="1021" centerz="9" radius="1" />
-	<spawn centerx="942" centery="1022" centerz="9" radius="1">
-		<monster name="Skeleton" x="-1" y="0" z="9" spawntime="60" />
+	<spawn centerx="941" centery="1022" centerz="9" radius="1">
+		<monster name="Skeleton" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="931" centery="1023" centerz="9" radius="1">
 		<monster name="Skeleton" x="0" y="-1" z="9" spawntime="60" />
@@ -6795,6 +6802,9 @@
 	</spawn>
 	<spawn centerx="1052" centery="878" centerz="10" radius="5">
 		<monster name="Bonelord" x="-2" y="-2" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="1289" centery="878" centerz="10" radius="1">
+		<npc name="Suspect Beggar" x="-1" y="0" z="10" spawntime="200" />
 	</spawn>
 	<spawn centerx="1063" centery="879" centerz="10" radius="5">
 		<monster name="Bonelord" x="2" y="1" z="10" spawntime="60" />
