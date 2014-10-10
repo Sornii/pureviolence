@@ -45,9 +45,9 @@
 	<house name="Forge House #4" houseid="43" entryx="1012" entryy="1049" entryz="6" rent="0" townid="1" size="10" />
 	<house name="Forge House #5" houseid="44" entryx="1007" entryy="1046" entryz="6" rent="0" townid="1" size="34" />
 	<house name="Forge House #6" houseid="45" entryx="1007" entryy="1049" entryz="6" rent="0" townid="1" size="34" />
-	<house name="Archers small house #1" houseid="46" entryx="1079" entryy="1039" entryz="6" rent="0" townid="1" size="4" />
-	<house name="Archers small house #2" houseid="47" entryx="1083" entryy="1039" entryz="6" rent="0" townid="1" size="4" />
-	<house name="Archers small house #3" houseid="49" entryx="1087" entryy="1039" entryz="6" rent="0" townid="1" size="4" />
+	<house name="Archers House #1" houseid="46" entryx="1079" entryy="1039" entryz="6" rent="0" townid="1" size="4" />
+	<house name="Archers House #2" houseid="47" entryx="1083" entryy="1039" entryz="6" rent="0" townid="1" size="4" />
+	<house name="Archers House #3" houseid="49" entryx="1087" entryy="1039" entryz="6" rent="0" townid="1" size="4" />
 	<house name="Corner Halls #1" houseid="50" entryx="1118" entryy="1034" entryz="7" rent="0" townid="1" size="30" />
 	<house name="Corner Halls #2" houseid="51" entryx="1118" entryy="1029" entryz="7" rent="0" townid="1" size="30" />
 	<house name="Corner Halls #3" houseid="52" entryx="1118" entryy="1025" entryz="7" rent="0" townid="1" size="30" />
@@ -86,7 +86,7 @@
 	<house name="Sea House #3" houseid="85" entryx="1058" entryy="1007" entryz="6" rent="0" townid="1" size="16" />
 	<house name="Sea House #4" houseid="86" entryx="1067" entryy="1007" entryz="6" rent="0" townid="1" size="16" />
 	<house name="Sea House #5" houseid="87" entryx="1067" entryy="1014" entryz="7" rent="0" townid="1" size="69" />
-	<house name="Archers House #" houseid="88" entryx="1068" entryy="1026" entryz="7" rent="0" townid="1" size="49" />
+	<house name="Archers Hall #1" houseid="88" entryx="1068" entryy="1026" entryz="7" rent="0" townid="1" size="49" />
 	<house name="River Halls #1" houseid="89" entryx="1017" entryy="996" entryz="6" rent="0" townid="1" size="54" />
 	<house name="River Halls #2" houseid="90" entryx="1017" entryy="1001" entryz="6" rent="0" townid="1" size="16" />
 	<house name="River Halls #3" houseid="91" entryx="1012" entryy="1001" entryz="6" rent="0" townid="1" size="16" />
@@ -205,25 +205,25 @@
 	<house name="Necromancers Hall" houseid="215" entryx="943" entryy="1072" entryz="7" rent="0" guildhall="true" townid="1" size="563" />
 	<house name="Necromancers house" houseid="216" entryx="924" entryy="1077" entryz="7" rent="0" townid="1" size="177" />
 	<house name="Guild Castle" houseid="217" entryx="925" entryy="1045" entryz="7" rent="0" guildhall="true" townid="1" size="595" />
-	<house name="Entry hall #1" houseid="218" entryx="1050" entryy="1088" entryz="7" rent="0" townid="1" size="160" />
-	<house name="Entry hall #2" houseid="219" entryx="1052" entryy="1109" entryz="7" rent="0" townid="1" size="198" />
-	<house name="Entry hall #3" houseid="220" entryx="1061" entryy="1106" entryz="7" rent="0" townid="1" size="75" />
-	<house name="Entry hall #4" houseid="221" entryx="1061" entryy="1095" entryz="7" rent="0" townid="1" size="112" />
-	<house name="Entry hall #5" houseid="222" entryx="1013" entryy="1105" entryz="7" rent="0" townid="1" size="49" />
-	<house name="Entry hall #6" houseid="223" entryx="1004" entryy="1109" entryz="7" rent="0" townid="1" size="96" />
-	<house name="Entry hall #7" houseid="224" entryx="999" entryy="1092" entryz="7" rent="0" townid="1" size="77" />
-	<house name="Entry hall #8" houseid="225" entryx="1011" entryy="1088" entryz="7" rent="0" townid="1" size="36" />
-	<house name="Stone hall #1" houseid="226" entryx="995" entryy="1104" entryz="7" rent="0" townid="1" size="39" />
-	<house name="Stone hall #2" houseid="227" entryx="995" entryy="1095" entryz="7" rent="0" townid="1" size="54" />
-	<house name="Stone hall #3" houseid="228" entryx="981" entryy="1088" entryz="7" rent="0" townid="1" size="82" />
-	<house name="Stone hall #4" houseid="229" entryx="968" entryy="1088" entryz="7" rent="0" townid="1" size="41" />
-	<house name="Stone hall #5" houseid="230" entryx="966" entryy="1097" entryz="7" rent="0" townid="1" size="79" />
-	<house name="Stone hall #6" houseid="231" entryx="969" entryy="1110" entryz="7" rent="0" townid="1" size="91" />
-	<house name="Stone hall #7" houseid="232" entryx="987" entryy="1110" entryz="7" rent="0" guildhall="true" townid="1" size="132" />
-	<house name="Stone hall #8" houseid="233" entryx="961" entryy="1101" entryz="7" rent="0" townid="1" size="148" />
-	<house name="Stone hall #9" houseid="234" entryx="961" entryy="1093" entryz="7" rent="0" townid="1" size="36" />
-	<house name="Stone hall #10" houseid="235" entryx="953" entryy="1067" entryz="7" rent="0" townid="1" size="141" />
-	<house name="Stone hall #11" houseid="236" entryx="957" entryy="1083" entryz="7" rent="0" townid="1" size="136" />
+	<house name="Entry Hall #1" houseid="218" entryx="1050" entryy="1088" entryz="7" rent="0" townid="1" size="160" />
+	<house name="Entry Hall #2" houseid="219" entryx="1052" entryy="1109" entryz="7" rent="0" townid="1" size="198" />
+	<house name="Entry Hall #3" houseid="220" entryx="1061" entryy="1106" entryz="7" rent="0" townid="1" size="75" />
+	<house name="Entry Hall #4" houseid="221" entryx="1061" entryy="1095" entryz="7" rent="0" townid="1" size="112" />
+	<house name="Entry Hall #5" houseid="222" entryx="1013" entryy="1105" entryz="7" rent="0" townid="1" size="49" />
+	<house name="Entry Hall #6" houseid="223" entryx="1004" entryy="1109" entryz="7" rent="0" townid="1" size="96" />
+	<house name="Entry Hall #7" houseid="224" entryx="999" entryy="1092" entryz="7" rent="0" townid="1" size="77" />
+	<house name="Entry Hall #8" houseid="225" entryx="1011" entryy="1088" entryz="7" rent="0" townid="1" size="36" />
+	<house name="Stone Hall #1" houseid="226" entryx="995" entryy="1104" entryz="7" rent="0" townid="1" size="39" />
+	<house name="Stone Hall #2" houseid="227" entryx="995" entryy="1095" entryz="7" rent="0" townid="1" size="54" />
+	<house name="Stone Hall #3" houseid="228" entryx="981" entryy="1088" entryz="7" rent="0" townid="1" size="82" />
+	<house name="Stone Hall #4" houseid="229" entryx="968" entryy="1088" entryz="7" rent="0" townid="1" size="41" />
+	<house name="Stone Hall #5" houseid="230" entryx="966" entryy="1097" entryz="7" rent="0" townid="1" size="79" />
+	<house name="Stone Hall #6" houseid="231" entryx="969" entryy="1110" entryz="7" rent="0" townid="1" size="91" />
+	<house name="Stone Hall #7" houseid="232" entryx="987" entryy="1110" entryz="7" rent="0" guildhall="true" townid="1" size="132" />
+	<house name="Stone Hall #8" houseid="233" entryx="961" entryy="1101" entryz="7" rent="0" townid="1" size="148" />
+	<house name="Stone Hall #9" houseid="234" entryx="961" entryy="1093" entryz="7" rent="0" townid="1" size="36" />
+	<house name="Stone Hall #10" houseid="235" entryx="953" entryy="1067" entryz="7" rent="0" townid="1" size="141" />
+	<house name="Stone Hall #11" houseid="236" entryx="957" entryy="1083" entryz="7" rent="0" townid="1" size="136" />
 	<house name="Druid Square #1" houseid="237" entryx="995" entryy="1047" entryz="7" rent="0" guildhall="true" townid="1" size="176" />
 	<house name="Druid Square #2" houseid="238" entryx="995" entryy="1058" entryz="7" rent="0" townid="1" size="56" />
 	<house name="Druid Square #3" houseid="239" entryx="983" entryy="1060" entryz="7" rent="0" townid="1" size="94" />
