@@ -4,6 +4,8 @@ local maxDeathRecords = 5
 function onDeath(cid, corpse, killer, mostDamage, unjustified, mostDamage_unjustified)
 	local player = Player(cid)
 
+	player:setStorageValue(3470, -1)
+
 	player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You are dead.")
 	if not deathListEnabled then
 		return
@@ -82,6 +84,4 @@ function onDeath(cid, corpse, killer, mostDamage, unjustified, mostDamage_unjust
 			end
 		end
 	end
-
-	player:setStorageValue(3470, -1)
 end
