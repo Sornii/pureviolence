@@ -41,7 +41,7 @@ shopModule:addSellableItem({'mace'}, 2398, 50, 'mace')
 shopModule:addSellableItem({'iron hammer'}, 2422, 100, 'iron hammer')
 shopModule:addSellableItem({'battle hammer'}, 2417, 200, 'battle hammer')
 shopModule:addSellableItem({'morning star'}, 2394, 320, 'morning star')
-shopModule:addSellableItem({'clerical mace'}, 2423, 5000, 'clerical mace')
+shopModule:addSellableItem({'clerical mace'}, 2423, 500, 'clerical mace')
 
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 npcHandler:addModule(FocusModule:new())
