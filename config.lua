@@ -77,7 +77,7 @@ emoteSpells = "no"
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
 rateExp = 5
 rateSkill = 5
-rateLoot = 2
+rateLoot = 4
 rateMagic = 5
 rateSpawn = 1
 
