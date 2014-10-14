@@ -2,13 +2,13 @@
 -- NOTE: valid values for worldType are: "pvp", "no-pvp" and "pvp-enforced"
 worldType = "pvp"
 hotkeyAimbotEnabled = "yes"
-protectionLevel = 1
+protectionLevel = 50
 killsToRedSkull = 10
 killsToBlackSkull = 25
 pzLocked = 60000
 removeAmmoWhenUsingDistanceWeapon = "yes"
 removeChargesFromRunes = "yes"
-timeToDecreaseFrags = 24 * 60 * 60 * 1000
+timeToDecreaseFrags = 4 * 60 * 60 * 1000
 whiteSkullTime = 15 * 60 * 1000
 stairJumpExhaustion = 2000
 experienceByKillingPlayers = "no"
