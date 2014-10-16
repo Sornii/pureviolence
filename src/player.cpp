@@ -2127,7 +2127,7 @@ void Player::death(Creature* _lastHitCreature)
 		sumMana += manaSpent;
 
 		//double deathLossPercent = getLostPercent() * (unfairFightReduction / 100.);
-		double deathLossPercent = 1.00;
+		double deathLossPercent = 0.50;
 
 		lostMana = (uint64_t)(sumMana * deathLossPercent);
 
@@ -2173,6 +2173,8 @@ void Player::death(Creature* _lastHitCreature)
 			skills[i][SKILLVALUE_TRIES] = std::max<int32_t>(0, skills[i][SKILLVALUE_TRIES] - lostSkillTries);
 			skills[i][SKILLVALUE_PERCENT] = Player::getPercentLevel(skills[i][SKILLVALUE_TRIES], vocation->getReqSkillTries(i, skills[i][SKILLVALUE_LEVEL]));
 		}
+
+		deathLossPercent = 1.00;
 
 		//Level loss
 		uint64_t expLoss = (uint64_t)(experience * deathLossPercent);
